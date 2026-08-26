@@ -1,0 +1,113 @@
+*{
+    margin: 0; /* This sets the margin of all elements to 0, removing any default spacing around them. */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*this is the overall body of the website*/
+body{
+    background-color: #091c35; /* This sets the background color of the body element to a light gray. */
+}
+
+/*this section is for the navigation bar on all the webpages for my website*/
+nav{ 
+    display: flex; /* This sets the display property of the nav element to flex, allowing for flexible layout of its child elements. */
+    justify-content: space-between; /* This distributes the child elements of the nav element evenly, with space between them. */
+    align-items: center; /* This aligns the child elements of the nav element vertically in the center. */
+    padding: 20px 80px; /* This adds padding of 20 pixels to all sides of the nav element. */
+    border: 1px solid black; /* This adds a border of 1 pixel with a light gray color to the nav element. */
+}
+
+.logo{
+    font-size: 24px; /* This sets the font size of the logo element to 24 pixels. */
+    font-weight: bold; /* This sets the font weight of the logo element to bold, making it stand out. */
+    color: #c7c7c7; /* This sets the text color of the logo link to a dark gray. */
+
+}
+
+.nav-links ul{
+    font-family: "Poppins", sans-serif;
+    display: flex; /* This sets the display property of the unordered list element to flex, allowing for flexible layout of its child elements. */
+    list-style: none; /* This removes the default bullet points from the list items. */
+    gap: 30px; /* This adds a gap of 20 pixels between the list items. */
+}
+
+.nav-links a{
+    text-decoration: none; /* This removes the underline from the links. */
+    color: #c7c7c7; /* This sets the text color of the links to a dark gray. */
+    font-size: 18px; /* This sets the font size of the links to 18 pixels. */
+}
+
+/*this section is for the footer on all the webpages for my website*/
+footer{
+    display: flex; /* This sets the display property of the footer element to flex, allowing for flexible layout of its child elements. */
+    justify-content: space-between; /* This distributes the child elements of the footer element evenly, with space between them. */
+    align-items: center; /* This aligns the child elements of the footer element vertically in the center. */
+    background-color: #091c35; /* This sets the background color of the footer element to a light gray. */
+    color: #c7c7c7; /* This sets the text color of the footer element to a dark gray. */
+    text-align: center; /* This centers the text within the footer element. */
+    padding: 21px; /* This adds padding of 20 pixels to the top and bottom of the footer element. */
+    border-top: 1px solid black; /* This adds a border of 1 pixel with a light gray color to the top of the footer element. */
+    margin-top: 20px; /* This adds a top margin of 20 pixels to the footer element, creating space between it and the content above. */
+}
+
+.social-links a{
+    display: inline-block; /* This sets the display property of the social links to inline-block, allowing them to have padding and margins. */
+    text-decoration: none; /* This removes the underline from the social links. */
+    margin: 0 10px; /* This adds a left and right margin of 10 pixels to the social links. */
+}
+
+.social-links img{
+    width: 30px; /* This sets the width of the social link images to 30 pixels. */
+    height: auto; /* This sets the height of the social link images to auto, maintaining their aspect ratio. */
+}
+
+.overall{
+    padding: 20px; /* This adds padding of 20 pixels to all sides of the overall element. */
+    color: #c7c7c7; /* This sets the text color of the overall element to a dark gray. */
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.contact-icons a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+    text-decoration: none;
+}
+
+.contact-icons h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.contact-icons img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.contact-icons span {
+    color: #c7c7c7;
+}
+
+.conclusion {
+    color: #c7c7c7;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.conclusion ul {
+    padding-left: 30px;
+}
+
+.conclusion p{
+    padding-top: 3px;
+}

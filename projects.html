@@ -1,0 +1,141 @@
+<!DOCTYPE html> <!-- this is the doctype declaration for HTML5, which tells the browser that this document is an HTML5 document. -->
+<html lang="en"> <!-- this is the opening tag for the HTML document, with the language attribute set to English. -->
+
+<head>
+    <meta charset="UTF-8"> <!-- this meta tag specifies the character encoding for the HTML document, which is set to UTF-8. This ensures that the text is displayed correctly in different languages and symbols. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this meta tag sets the viewport properties for responsive web design. It ensures that the page is scaled correctly on different devices, such as mobile phones and tablets. -->
+    <title>Richa Jetani | Portfolio</title>
+
+    <link rel="stylesheet" href="projectStyle.css"> <!-- this link tag includes an external CSS stylesheet named "style.css" to style the HTML document. -->
+</head>
+
+<body> 
+
+    <header> <!-- this is the opening tag for the header section of the HTML document. The header typically contains introductory content or navigational links. -->
+        <nav>
+
+            <div class="logo"> <!-- this div element is used to contain the logo of the website. -->
+                Richa's Portfolio <!-- this heading element displays the name "Richa Jetani" as the logo text. -->
+            </div>
+            <div class="nav-links"> <!-- this div element is used to contain the navigation links of the website. -->
+                <ul> <!-- this unordered list element contains the navigation links as list items. -->
+                    <li><a href="index.html">Home</a></li> <!-- this list item contains a link to the home page. -->
+                    <li><a href="projects.html">Projects</a></li> <!-- this list item contains a link to the projects page. -->
+                    <li><a href="contacts.html">Contact</a></li> <!-- this list item contains a link to the contact page. -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Projects</h1>
+
+    <section class="nea-project">
+        <h2>A-Level Computer Science NEA (Grade: 57/70)</h2>
+        <p>As part of my Computer Science A-Level, I designed and developed
+            a desktop implementation of the class Solitaire card game using Python.
+            The project was built entirely from scratch and followed a structured
+            software development process, from analysing user requirements and designing
+            the interface to implementing, testing, and evaluating the final application.,
+        </p>
+        <p> The objective of the porject was to modernise the traditional Solitaire experiance 
+            by introducing features that improve user engagement while maintaining the core gameplay.
+        </p>
+        <h3>Key features of the application include:</h3>
+            <ul>
+                <li>User registration and login system with SQLite database.</li>
+                <li>Customisable game themes, card backs and card designs.</li>
+                <li>Multiple difficulty levels with reshuffle limits.</li>
+                <li>Interactive game interface built using Python.</li>
+                <li>Settings menu with music and sound effect controls.</li>
+                <li>In-game help and instructions for new players.</li>
+                <li>Timer, game statistics and additional gameplay features.</li>
+                <li>Input validation and error handling throughout the application.</li>
+            </ul>
+        <h3>My Approach</h3>
+        <p> I designed the application using object-oriented programming principles to seperate the 
+            game's functionality into reuseable classes, making the code easier to maintain and extend.
+            The interface combined Pygame for the game board with Tkinter for menus and dialog windows, 
+            allowing me to create a user-freindly desktop application.
+        </p>
+        <p> Thoughout the development I adopted an iterative appraoch, implementing and testing each 
+            feature individually before integrating it into the complete system. This helped ensure the 
+            application remained reliable as new functionality was added.
+        </p>
+        <h3>Challenges</h3>
+        <p> One of the biggest challenges I encountered was implementing the card movement mechanics.
+            While I successfully developed the game's interface, user authentication, settings and 
+            other supporting features, I was unable to fully implement the interactive movement of 
+            cards within the time available. This highlighted the complexity managing the game state,
+            vaildating moces and coordinating user interaction in a graphical application. Although 
+            the feature remained incomplete, the experiance improved my problem solving skills and 
+            gave me a greater appreciation for the importance of planning, incremental development 
+            and allocating sufficient time to technically demanding features.
+        </p>
+        <p> Another challenge was integrating mutiple technologies within the same application. I used
+            Pygame for the main interface while using Tkinter for features such as login, account creation
+            and setting windows. Ensuring these components worked together smoothly required careful 
+            planning and debugging.
+        </p>
+    </section>
+
+    <section class="software-engineering-coursework">
+        <h2>Software Engineering Coursework (Grade: 70.6/100)</h2>
+        <p> As part of my second-year Software Engineering coursework, I collaborated in a seven-member team
+            to design and develop NeighbourLink, a full-stack web application aimed at connecting local 
+            communities by enabling users to organise events, request assisstance, and report community issues.
+            The project followed an Agile-inspired development process, with team members collaboarting though git 
+            using feature braches and pull requests to manage changes and ensure code quality.
+        </p>
+        <p> The frontend was developed using HTML, CSS, and TypeScript, focusing on creating a resopnsive, intuitive,
+            and accessible user interface. The backend was built with Node.js and Express.js, exposing RESTful APIs to 
+            handle client requests and business logic, while PostgreSQL was used as the relational database for sotring 
+            user accounts, events, reports and other application data. Throught the project, I gained valuable experaince
+            in full-stack development, collaborative software engineering practices, version control, and building scalable,
+            web applications.
+        </p>
+        <h3>My role</h3>
+        <p> I was primarily responsible for the overall frontend design and implementation. My resposibilities included: </p> 
+        <ul>
+            <li> Designing the user interface structure and page layouts.</li>
+            <li> Creating reusable frontend components to maintain consistency. </li>
+            <li> Implementing dark mode functionality. </li>
+            <li> Developing navigating between different sections of the application. </li>
+            <li> Creating the report feature. </li>
+            <li> Reviewing and integrating team members' changes. </li>
+        </ul>
+        <h3>Walkthrough of Neighbourlink</h3>
+        <p> The video showcases the user interface, navigation, authentication, community reporting system, event management, 
+            other core features that my team and I implemented using HTML, CSS, Tyscript, NOde.js, Express,js and PostgreSQL.
+        </p>
+        <button id="openNeighbourlinkWalkthrough" class="video-button">
+            Watch Walkthrough
+        </button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Richa Jetani. All rights reserved.</p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/richajetani/" target="_blank">
+                <img src="images/brand-linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/richajetani" target="_blank">
+                <img src="images/brand-github.png" alt="GitHub">
+            </a>
+            <a href="mailto:richajetani@gmail.com">
+                <img src="images/mail.png" alt="Email">
+            </a>
+        </div>
+    </footer>
+
+    <div id="videoModal" class="modal"> <!--A modal is a box that appears over the current webpage without opening a new page.-->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <video controls> <!--The controls attribute gives the user: Play button, Pause button, Volume, Timeline and Fullscreen-->
+                    <source src="images/NeighbourLink-Walkthrough.mp4" type="video/mp4">
+                </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- this links the html with the ja code.-->
+</body>
