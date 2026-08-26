@@ -1,6 +1,3 @@
-# Portfolio
-My personal portfolio website.
-
 ## Overview:
 This repository contains my personal portfolio website, developed to showcase my academic journey, technical skills, projects and experience as a Computer Science Student.
 
