@@ -19,23 +19,6 @@ This website was created using HTML, CSS and JavaScript. The aim of this first i
 - Git & GitHub: Used for version control and project management.
 - Visual Studio Code: Used as the development environment.
 
-## Project Structure
-Portfolio/ 
-│ 
-├── index.html 
-├── projects.html 
-├── contact.html 
-├── style.css 
-├── script.js 
-│ 
-├── images/ 
-│   └── portfolio images and project assets 
-│ 
-├── videos/ 
-│   └── project walkthrough videos 
-│ 
-└── README.md
-
 ## Future Improvements
 For the next iteration of the website, I plan to improve both its visual design and functionality. Planned improvements include:
   - A more modern and aesthetically pleasing interface
